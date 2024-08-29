@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main(){
+  cout<<"enter the first number"<<endl;
+  double q;
+  cin>>q;
+  cout<<"enter the second number"<<endl;
+  double w;
+  cin>>w;
+  cout<<"enter the operation "<<endl;
+  char operation;
+  cin>>operation;
+  switch(operation){
+    case'+':cout<<"ans is:"<<q+w<<endl;
+    break;
+    case'-':cout<<"ans is:"<<q-w<<endl;
+    break;
+    case'/':cout<<"ans is:"<<q/w<<endl;
+    break;
+    case'*':cout<<"ans is:"<<q*w<<endl;
+    break;
+
+    default:cout<<"enter the correct operation"<<endl;
+    
+  }
+}
